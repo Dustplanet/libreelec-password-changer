@@ -8,9 +8,9 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
 # author: Tim "xGhOsTkiLLeRx" Brust
-# license: CC BY-NC-SA 4.0
-# version: 0.4.10
-# date: 01/06/2017
+# license: MIT
+# version: 0.4.11
+# date: 05/20/2017
 # description: replace (root) password of squashfs from openELEC or LibreELEC
 # usage: ./openELEC [password] [device] [hash] [user]
 # dependencies: ((python && pip && passlib) || mkpasswd), squashfs-tools
@@ -72,7 +72,7 @@ if [ "$(id -u)" != 0 ]
     exit 1
 fi
 
-# Check if we are running on Mac OS X
+# Check if we are running on macOS
 if [ "$(uname)" = "Darwin" ]
   then
     mac=true
