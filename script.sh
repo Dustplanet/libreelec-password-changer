@@ -17,7 +17,7 @@
 #
 #
 # THIS SCRIPT COMES WITH ZERO WARRANTY!
-# I'M NOT RESPONSIBLE FOR ANY POTENTIAL DATA LOSS!
+# I'M NOT RESPONSIBLE FOR ANY DATA LOSS!
 # ALWAYS CREATE BACKUPS!
 
 # Configure colors, if available.
@@ -72,7 +72,7 @@ if [ "$(id -u)" != 0 ]
     exit 1
 fi
 
-# Check if we are running on Mac OS X
+# Check if we are running on macOS
 if [ "$(uname)" = "Darwin" ]
   then
     mac=true

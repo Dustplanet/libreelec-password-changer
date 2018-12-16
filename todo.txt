@@ -1,0 +1,4 @@
+readme
+make folder configurable (/openelec)
+vscode shellshock extension
+test with latest libreelec variants
